@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.tic-tac-toe {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+.my-button {
+    border: 10px solid gray;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+}
